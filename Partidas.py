@@ -75,8 +75,8 @@ def correoBallena():
 		try:	
 
 			# Iniciamos los parámetros del script
-			remitente = 'cristosoto@grupoac.es'
-			destinatarios = ['cristosote@gmail.com','jesusalonso@grupoac.es']
+			remitente = 'cristosoto@carbi.es'
+			destinatarios = ['cristosote@gmail.com','jesusalonso@carbi.es']
 			asunto = 'Partidas diarias Bingo La Ballena'
 			cuerpo = 'Buenos días, se adjunta archivo de partidas.'
 			ruta_adjunto = (r'C:\Partidas\La_Ballena.db')
@@ -114,7 +114,7 @@ def correoBallena():
 			sesion_smtp.starttls()
 
 			# Iniciamos sesión en el servidor
-			sesion_smtp.login('cristosoto@grupoac.es','BOnhm132')
+			sesion_smtp.login('cristosoto@carbi.es','BOnhm132')
 
 			# Convertimos el objeto mensaje a texto
 			texto = mensaje.as_string()
@@ -144,8 +144,8 @@ def correoMercantil():
 		try:
 
 			# Iniciamos los parámetros del script
-			remitente = 'cristosoto@grupoac.es'
-			destinatarios = ['cristosote@gmail.com','jesusalonso@grupoac.es']
+			remitente = 'cristosoto@carbi.es'
+			destinatarios = ['cristosote@gmail.com','jesusalonso@carbi.es']
 			asunto = 'Partidas diarias Bingo Mercantil'
 			cuerpo = 'Buenos días, se adjunta archivo de partidas.'
 
@@ -184,7 +184,7 @@ def correoMercantil():
 			sesion_smtp.starttls()
 
 			# Iniciamos sesión en el servidor
-			sesion_smtp.login('cristosoto@grupoac.es','BOnhm132')
+			sesion_smtp.login('cristosoto@carbi.es','BOnhm132')
 
 			# Convertimos el objeto mensaje a texto
 			texto = mensaje.as_string()
@@ -214,8 +214,8 @@ def correoAuditorio():
 		try:
 
 			# Iniciamos los parámetros del script
-			remitente = 'cristosoto@grupoac.es'
-			destinatarios = ['cristosote@gmail.com','jesusalonso@grupoac.es']
+			remitente = 'cristosoto@carbi.es'
+			destinatarios = ['cristosote@gmail.com','jesusalonso@carbi.es']
 			asunto = 'Partidas diarias Bingo Auditorio'
 			cuerpo = 'Buenos días, se adjunta archivo de partidas.'
 
@@ -254,7 +254,7 @@ def correoAuditorio():
 			sesion_smtp.starttls()
 
 			# Iniciamos sesión en el servidor
-			sesion_smtp.login('cristosoto@grupoac.es','BOnhm132')
+			sesion_smtp.login('cristosoto@carbi.es','BOnhm132')
 
 			# Convertimos el objeto mensaje a texto
 			texto = mensaje.as_string()
@@ -284,8 +284,8 @@ def correoImperial():
 		try:
 
 			# Iniciamos los parámetros del script
-			remitente = 'cristosoto@grupoac.es'
-			destinatarios = ['cristosote@gmail.com','jesusalonso@grupoac.es']
+			remitente = 'cristosoto@carbi.es'
+			destinatarios = ['cristosote@gmail.com','jesusalonso@carbi.es']
 			asunto = 'Partidas diarias Bingo Imperial'
 			cuerpo = 'Buenos días, se adjunta archivo de partidas.'
 
@@ -324,7 +324,7 @@ def correoImperial():
 			sesion_smtp.starttls()
 
 			# Iniciamos sesión en el servidor
-			sesion_smtp.login('cristosoto@grupoac.es','BOnhm132')
+			sesion_smtp.login('cristosoto@carbi.es','BOnhm132')
 
 			# Convertimos el objeto mensaje a texto
 			texto = mensaje.as_string()
@@ -354,8 +354,8 @@ def correoMercurio():
 		try:
 		
 			# Iniciamos los parámetros del script
-			remitente = 'cristosoto@grupoac.es'
-			destinatarios = ['cristosote@gmail.com','jesusalonso@grupoac.es']
+			remitente = 'cristosoto@carbi.es'
+			destinatarios = ['cristosote@gmail.com','jesusalonso@carbi.es']
 			asunto = 'Partidas diarias Bingo Mercurio'
 			cuerpo = 'Buenos días, se adjunta archivo de partidas.'
 
@@ -394,7 +394,7 @@ def correoMercurio():
 			sesion_smtp.starttls()
 
 			# Iniciamos sesión en el servidor
-			sesion_smtp.login('cristosoto@grupoac.es','BOnhm132')
+			sesion_smtp.login('cristosoto@carbi.es','BOnhm132')
 
 			# Convertimos el objeto mensaje a texto
 			texto = mensaje.as_string()
